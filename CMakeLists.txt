@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.5)
+cmake_policy(SET CMP0048 NEW)
+project(wutest)
+set(CMAKE_CXX_STANDARD 98)
+set(CMAKE_C_STANDARD 99)
+add_executable(demo src/demo.cc)
